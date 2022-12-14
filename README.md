@@ -25,24 +25,28 @@ Napište spojový seznam pro prvek s obecnou datovou složkou typu <b>T</b>.
 
 -   otočení seznamu <b>(1b)</b>
 
-Bonus (Iterátor) 
+-   metoda sort (setřídí seznam) <b>(1b)</b>
+
+Bonus (Iterátor) - (7b)
 ----------------
 
 #### Metody seznamu
 
--   Vrácení iterátoru na začátek (hlavu) seznamu - metoda se musí nazývat begin() <b>(1b)</b>
+-   Vrácení iterátoru na začátek (hlavu) seznamu - metoda se musí nazývat begin() 
 
--   Vrácení iterátoru na konec (zarážku) seznamu - metoda se musí nazývat end() <b>(1b)</b>
+-   Vrácení iterátoru na konec (zarážku) seznamu - metoda se musí nazývat end()
 
 #### Iterátor
 
--   konstruktor <b>(1b)</b>
+-   konstruktor 
 
--   Posunutí iterátoru na další prvek seznamu (možnost přetížit operátor
-    ++) <b>(2b)</b>
+-   Posunutí iterátoru na další prvek seznamu (přetížit operátor
+    ++) 
 
--   získat data z prvku uloženého v iterátoru (možnost přetížit operátor
-    \*) <b>(2b)</b>
+-   získat data z prvku uloženého v iterátoru (přetížit operátor
+    \*) 
+    
+-   Porovnání, zda jsou dva iterátory stejné (přetížit operátor !=) 
 
 Pokud chcete +2 body, můžete místo jednosměrného seznamu naimplementovat
 obousměrný seznam. A další +3 body lze získat za šablonovou implementaci
