@@ -4,6 +4,7 @@
 #include <fstream>
 #include <algorithm>
 #include <cassert>
+#include <initializer_list>
 
 //using T = int;
 
@@ -19,6 +20,7 @@ class ChytrePole
 public:
 	ChytrePole();
 	ChytrePole(const ChytrePole<T>& src);
+	ChytrePole(std::initializer_list<T> list);
 	~ChytrePole();
 	void inicializace(int k, int n);
 	void zrus();
@@ -84,6 +86,15 @@ ChytrePole<T>::ChytrePole(const ChytrePole<T>& src)
 	for (int i = 0; i < k; i++)
 	{
 		this->pole[i] = src.pole[i];
+	}
+}
+
+template<typename T>
+inline ChytrePole<T>::ChytrePole(std::initializer_list<T> list) : ChytrePole()
+{
+	for (auto i : list)
+	{
+		pridejNaKonec(i);
 	}
 }
 
