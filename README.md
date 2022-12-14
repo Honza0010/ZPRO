@@ -5,42 +5,42 @@ Napište spojový seznam pro prvek s obecnou datovou složkou typu <b>T</b>.
 
 #### Metody
 
--   konstruktor (1b) - povinné
+-   konstruktor <b>(0,5b)</b> - povinné
 
--   destruktor (1b) - povinné
+-   destruktor <b>(1b)</b> - povinné
 
--   přidání prvku na začátek (1b) - povinné
+-   přidání prvku na začátek <b>(1b)</b> - povinné
 
--   odstranění prvního prvku (1b) - povinné
+-   odstranění prvního prvku <b>(1b)</b> - povinné
 
--   kontrola prázdnosti seznamu (1b)
+-   kontrola prázdnosti seznamu <b>(0,5b)</b>
 
--   přidání prvku na konec (1b)
+-   přidání prvku na konec <b>(1b)</b>
 
--   odebrání posledního prvku (1b)
+-   odebrání posledního prvku <b>(1b)</b>
 
--   vrácení délky seznamu (1b)
+-   vrácení délky seznamu <b>(1b)</b>
 
--   otočení seznamu (1b)
+-   otočení seznamu <b>(1b)</b>
 
 Bonus (Iterátor) 
 ----------------
 
 #### Metody seznamu
 
--   Vrácení iterátoru na začátek (hlavu) seznamu - metoda se musí nazývat begin() (1b)
+-   Vrácení iterátoru na začátek (hlavu) seznamu - metoda se musí nazývat begin() <b>(1b)</b>
 
--   Vrácení iterátoru na konec (zarážku) seznamu - metoda se musí nazývat end() (1b)
+-   Vrácení iterátoru na konec (zarážku) seznamu - metoda se musí nazývat end() <b>(1b)</b>
 
 #### Iterátor
 
--   konstruktor (1b)
+-   konstruktor <b>(1b)</b>
 
 -   Posunutí iterátoru na další prvek seznamu (možnost přetížit operátor
-    ++) (2b)
+    ++) <b>(2b)</b>
 
 -   získat data z prvku uloženého v iterátoru (možnost přetížit operátor
-    \*) (2b)
+    \*) <b>(2b)</b>
 
 Pokud chcete +2 body, můžete místo jednosměrného seznamu naimplementovat
 obousměrný seznam. A další +3 body lze získat za šablonovou implementaci
@@ -62,11 +62,11 @@ knihy-autor/ilustrátor-isbn-počet stran-datum publikace)
 
 #### Funkce
 
--   Načtení knih do seznamu (5b)
+-   Načtení knih do seznamu <b>(5b)</b>
 
--   Seřazení knih podle daného parametru (5b)
+-   Seřazení knih podle daného parametru <b>(5b)</b>
 
--   Uložení knih ze seznamu do textového souboru (5b)
+-   Uložení knih ze seznamu do textového souboru <b>(5b)</b>
 
 Podmínky k udělení zápočtu 
 ==========================
