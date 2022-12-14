@@ -54,7 +54,7 @@ jedné knize (název, autor/ilustrátor, isbn, počet stránek, datum
 publikace). Jednotlivé údaje na řádku jsou oddělené čárkou. Vaším úkolem
 bude napsat funkci, která jednotlivé knihy ze souboru uloží do vhodného
 kontejneru, který si vyberete (např. seznam, který si implementujete,
-nebo knihovní std::list\<T\>). Dále bude za úkol napsat funkce, které
+nebo knihovní std::list\<T\>). Dále bude za úkol napsat funkci (nebo metodu, pokud budete používat vlastní seznam), která
 knihy seřadí podle počtu stránek/isbn v daném kontejneru (seznamu) a na
 závěr bude funkce, která seznam uloží do textového souboru. Každá kniha
 bude uložená na vlastním řádku ve specifikovaném pořadí (název
