@@ -21,6 +21,8 @@ Napište spojový seznam pro prvek s obecnou datovou složkou typu <b>T</b>.
 
 -   odebrání posledního prvku <b>(1b)</b>
 
+#### Bonusové metody
+
 -   vrácení délky seznamu <b>(1b)</b>
 
 -   otočení seznamu <b>(1b)</b>
@@ -68,11 +70,11 @@ knihy-autor/ilustrátor-isbn-počet stran-datum publikace)
 
 #### Funkce
 
--   Načtení knih do seznamu <b>(5b)</b>
+-   Načtení knih do seznamu <b>(4b)</b>
 
--   Seřazení knih podle daného parametru <b>(5b)</b>
+-   Seřazení knih podle daného parametru <b>(4b)</b>
 
--   Uložení knih ze seznamu do textového souboru <b>(5b)</b>
+-   Uložení knih ze seznamu do textového souboru <b>(4b)</b>
 
 Podmínky k udělení zápočtu 
 ==========================
