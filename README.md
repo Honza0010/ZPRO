@@ -29,6 +29,8 @@ Napište spojový seznam pro prvek s obecnou datovou složkou typu <b>T</b>.
 
 -   metoda sort (setřídí seznam) <b>(1b)</b>
 
+-   konstruktor s std::initializer_list<T> <b>(1b)</b>
+
 Bonus (Iterátor) - (7b)
 ----------------
 
@@ -72,9 +74,9 @@ knihy-autor/ilustrátor-isbn-počet stran-datum publikace)
 
 -   Načtení knih do seznamu <b>(4b)</b>
 
--   Seřazení knih podle daného parametru <b>(4b)</b>
+-   Seřazení knih podle daného parametru <b>(5b)</b>
 
--   Uložení knih ze seznamu do textového souboru <b>(4b)</b>
+-   Uložení knih ze seznamu do textového souboru <b>(3b)</b>
 
 Podmínky k udělení zápočtu 
 ==========================
