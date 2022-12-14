@@ -28,9 +28,9 @@ Bonus (Iterátor)
 
 #### Metody seznamu
 
--   Vrácení iterátoru na začátek (hlavu) seznamu (1b)
+-   Vrácení iterátoru na začátek (hlavu) seznamu - metoda se musí nazývat begin() (1b)
 
--   Vrácení iterátoru na konec (zarážku) seznamu (1b)
+-   Vrácení iterátoru na konec (zarážku) seznamu - metoda se musí nazývat end() (1b)
 
 #### Iterátor
 
