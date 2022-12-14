@@ -2,11 +2,12 @@
 
 
 #include <fstream>
-
+#include <algorithm>
+#include <cassert>
 
 //using T = int;
 
-
+struct Comparator;
 
 template<typename T>
 class ChytrePole
@@ -50,7 +51,8 @@ public:
 	ChytrePole_Iterator begin() const;
 	ChytrePole_Iterator end() const;
 	ChytrePole_Iterator posledni() const;
-
+	void sort(bool (*porovnej)(T i, T j));
+	void sort(Comparator porovnej);
 	//friend std::ostream& operator<<(std::ostream& os, const ChytrePole<T>& a);
 	friend class ChytrePole_Iterator;
 };
@@ -127,6 +129,7 @@ void ChytrePole<T>::smazPrvek(int i)
 {
 	if (i <= 0 || i > k)
 	{
+		assert(!(i < 0 || i >= k), "Out of interval");
 		return;
 	}
 	for (int j = i; j < k; j++)
@@ -135,14 +138,11 @@ void ChytrePole<T>::smazPrvek(int i)
 	}
 	k--;
 }
-
+//#define assertm(exp, msg) assert(((void)msg, exp))
 template<typename T>
 T& ChytrePole<T>::operator[](int i) const
 {
-	if (i < 0 || i >= k)
-	{
-		//Vyvolani vyjimky
-	}
+	assert(!(i < 0 || i >= k), "Out of interval");
 	return this->pole[i];
 }
 
@@ -210,6 +210,42 @@ typename ChytrePole<T>::ChytrePole_Iterator ChytrePole<T>::posledni() const
 }
 
 template<typename T>
+void ChytrePole<T>::sort(bool(*porovnej)(T i, T j))
+{
+	for (int i = 0; i < k; i++)
+	{
+		for (int j = 0; j < k-1; j++)
+		{
+			if (porovnej(pole[j], pole[j + 1]))
+			{
+				/*T pom = pole[j];
+				pole[j] = pole[j + 1];
+				pole[j + 1] = pom;*/
+				std::swap(pole[j], pole[j + 1]);
+			}
+		}
+	}
+}
+
+template<typename T>
+inline void ChytrePole<T>::sort(Comparator porovnej)
+{
+	for (int i = 0; i < k; i++)
+	{
+		for (int j = 0; j < k - 1; j++)
+		{
+			if (porovnej(pole[j], pole[j + 1]))
+			{
+				/*T pom = pole[j];
+				pole[j] = pole[j + 1];
+				pole[j + 1] = pom;*/
+				std::swap(pole[j], pole[j + 1]);
+			}
+		}
+	}
+}
+
+template<typename T>
 const T& ChytrePole<T>::ChytrePole_Iterator::operator*() const
 {
 	//return a->pole[current];
@@ -221,3 +257,5 @@ bool ChytrePole<T>::ChytrePole_Iterator::operator!=(const ChytrePole_Iterator& o
 {
 	return (a != other.a) || (current != other.current);
 }
+
+
