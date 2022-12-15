@@ -80,6 +80,7 @@ knihy-autor/ilustrátor-isbn-počet stran-datum publikace)
 
 Podmínky k udělení zápočtu 
 ==========================
+
 Podmínkou k udělení zápočtu je zisk alespoň 20 bodů. K bodům ze
 zápočtové úlohy Vám budou přičteny i body z domácích úloh.
 
