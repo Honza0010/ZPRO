@@ -1,7 +1,7 @@
 Spojový seznam 
 ==============
 
-Napište spojový seznam pro prvek s obecnou datovou složkou typu <b>T</b>.
+Napište objektový spojový seznam pro prvek s obecnou datovou složkou typu <b>T</b>.
 
 #### Metody
 
