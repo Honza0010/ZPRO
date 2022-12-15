@@ -15,7 +15,7 @@ Napište objektový spojový seznam pro prvek s obecnou datovou složkou typu <b
 
 -   odstranění prvního prvku <b>(1b)</b> - povinné
 
--   kontrola prázdnosti seznamu <b>(0,5b)</b>
+-   kontrola prázdnosti seznamu <b>(0,5b)</b> - povinné
 
 -   přidání prvku na konec <b>(1b)</b>
 
