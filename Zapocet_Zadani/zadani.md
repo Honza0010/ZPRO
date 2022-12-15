@@ -84,8 +84,7 @@ Podmínky k udělení zápočtu
 Podmínkou k udělení zápočtu je zisk alespoň 20 bodů. K bodům ze
 zápočtové úlohy Vám budou přičteny i body z domácích úloh.
 
-Na vypracování zápočtové úlohy máte čas do konce letního zkouškového
-období.
+Zápočtovou úlohu vypracujte nejlépe do konce zkouškového období.
 
 Programy ke kontrole posílejte tehdy, kdy půjdou přeložit a nebudou
 házet žádné chybové hlášení. Stejně tak dávejte do svého zdrojového kódu
