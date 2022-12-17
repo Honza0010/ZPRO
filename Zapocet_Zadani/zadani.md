@@ -78,6 +78,8 @@ knihy-autor/ilustrátor-isbn-počet stran-datum publikace)
 
 -   Uložení knih ze seznamu do textového souboru <b>(3b)</b>
 
+Abyste dostali za tuto úlohu body, musí fungovat všechny 3 funkce.
+    
 Podmínky k udělení zápočtu 
 ==========================
 
